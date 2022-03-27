@@ -1,7 +1,7 @@
 import { MouseEventHandler } from "react";
 
 type counterProps = {
-    number: number,
+    number?: number,
     onIncrease?: MouseEventHandler<HTMLButtonElement>,
     onDecrease?: MouseEventHandler<HTMLButtonElement>
 }
